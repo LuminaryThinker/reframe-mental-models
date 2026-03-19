@@ -83,6 +83,10 @@ footer a:hover { color: #D4AF37; }
 /* FADE IN ANIMATION */
 .fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
 .fade-in.visible { opacity: 1; transform: translateY(0); }
+
+/* SIGNUP EMBED */
+.signup-embed { margin-top: 40px; display: flex; justify-content: center; }
+.signup-embed iframe { max-width: 100%; border-radius: 6px; }
 </style>
 </head>
 <body>
@@ -180,7 +184,9 @@ footer a:hover { color: #D4AF37; }
 <section class="final-cta">
   <h2>The tools that changed my life.<br>Yours if you want them.</h2>
   <div class="subline">One email a week. Mental models, reframes, and the perspective<br>shifts nobody taught us. Free.</div>
-  <a href="https://ahas.samanthapostman.com" class="cta" target="_blank" rel="noopener noreferrer">Get the frameworks free &rarr;</a>
+  <div class="signup-embed">
+    <iframe src="https://ahas.samanthapostman.com/embed" width="480" height="320" style="border: 1px solid #EEE; background: white" frameborder="0" scrolling="no"></iframe>
+  </div>
 </section>
 
 <!-- FOOTER -->
