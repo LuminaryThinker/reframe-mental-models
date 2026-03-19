@@ -8,14 +8,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { background: #000; color: #fff; font-family: 'Inter', sans-serif; font-weight: 300; line-height: 1.7; }
+body { background: #0D0D0D; color: #EDE9E1; font-family: 'Inter', sans-serif; font-weight: 300; font-size: 17px; line-height: 1.75; }
 a { color: #D4AF37; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-nav { display: flex; justify-content: space-between; align-items: center; padding: 24px 48px; position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(0,0,0,0.9); backdrop-filter: blur(10px); }
+nav { display: flex; justify-content: space-between; align-items: center; padding: 24px 48px; position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(13,13,13,0.92); backdrop-filter: blur(10px); }
 nav .logo { font-family: 'Inter', sans-serif; font-weight: 500; font-size: 14px; letter-spacing: 3px; text-transform: uppercase; color: #D4AF37; }
 nav .links { display: flex; gap: 32px; }
-nav .links a { font-size: 14px; font-weight: 400; color: #a0a0a0; letter-spacing: 1px; }
+nav .links a { font-size: 14px; font-weight: 400; color: #b0aaa0; letter-spacing: 1px; }
 nav .links a:hover { color: #D4AF37; text-decoration: none; }
 
 section { padding: 120px 48px; max-width: 800px; margin: 0 auto; }
@@ -27,40 +27,40 @@ section.wide { max-width: 1100px; }
 .about-hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 4.5vw, 48px); font-weight: 400; line-height: 1.3; }
 
 /* STORY */
-.story p { font-size: 18px; color: #ccc; line-height: 1.8; margin-bottom: 24px; }
-.story p.highlight { color: #fff; font-weight: 400; }
-.story p.standalone { font-family: 'Playfair Display', serif; font-size: 22px; color: #D4AF37; margin: 40px 0; }
+.story p { font-size: 19px; color: #ccc9c3; line-height: 1.85; margin-bottom: 28px; }
+.story p.highlight { color: #EDE9E1; font-weight: 400; }
+.story p.standalone { font-family: 'Playfair Display', serif; font-size: 24px; color: #D4AF37; margin: 40px 0; }
 
 /* CREDENTIALS */
-.credentials { background: #0A0A0A; }
+.credentials { background: #111010; }
 .credentials-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin-bottom: 48px; }
 .credentials h3 { font-size: 13px; letter-spacing: 3px; text-transform: uppercase; color: #D4AF37; margin-bottom: 16px; font-weight: 600; }
 .credentials ul { list-style: none; }
-.credentials li { font-size: 15px; color: #a0a0a0; margin-bottom: 8px; line-height: 1.5; }
-.credentials .education { font-size: 14px; color: #666; margin-top: 32px; line-height: 1.6; }
-.credentials .recognition { font-size: 13px; color: #555; margin-top: 24px; }
+.credentials li { font-size: 16px; color: #b8b2a8; margin-bottom: 10px; line-height: 1.55; }
+.credentials .education { font-size: 15px; color: #80786e; margin-top: 32px; line-height: 1.7; }
+.credentials .recognition { font-size: 14px; color: #706860; margin-top: 24px; }
 
 /* FARM */
-.farm { border-top: 1px solid #1a1a1a; }
-.farm p { font-size: 18px; color: #ccc; line-height: 1.8; margin-bottom: 24px; }
-.farm p.last { font-style: italic; color: #a0a0a0; }
+.farm { border-top: 1px solid #1a1818; }
+.farm p { font-size: 19px; color: #ccc9c3; line-height: 1.85; margin-bottom: 28px; }
+.farm p.last { font-style: italic; color: #b0aaa0; }
 
 /* TESTIMONIAL */
-.about-testimonial { background: #0A0A0A; text-align: center; }
-.about-testimonial blockquote { font-size: 20px; color: #ccc; line-height: 1.7; font-style: italic; max-width: 640px; margin: 0 auto 24px; position: relative; }
+.about-testimonial { background: #111010; text-align: center; }
+.about-testimonial blockquote { font-size: 20px; color: #ccc9c3; line-height: 1.75; font-style: italic; max-width: 640px; margin: 0 auto 24px; position: relative; }
 .about-testimonial blockquote::before { content: '\201C'; font-family: 'Playfair Display', serif; font-size: 80px; color: #D4AF37; position: absolute; top: -40px; left: -30px; opacity: 0.3; }
-.about-testimonial .author { font-size: 14px; color: #D4AF37; font-weight: 500; }
-.about-testimonial .title { font-size: 13px; color: #666; margin-top: 2px; }
+.about-testimonial .author { font-size: 15px; color: #D4AF37; font-weight: 500; }
+.about-testimonial .title { font-size: 14px; color: #80786e; margin-top: 4px; }
 
 /* FINAL CTA */
 .final-cta { text-align: center; }
-.final-cta h2 { font-family: 'Playfair Display', serif; font-size: clamp(28px, 4vw, 40px); color: #D4AF37; font-weight: 400; margin-bottom: 16px; line-height: 1.4; }
-.final-cta .subline { font-size: 18px; color: #a0a0a0; margin-bottom: 40px; }
+.final-cta h2 { font-family: 'Playfair Display', serif; font-size: clamp(30px, 4vw, 42px); color: #D4AF37; font-weight: 400; margin-bottom: 16px; line-height: 1.4; }
+.final-cta .subline { font-size: 19px; color: #b8b2a8; margin-bottom: 40px; }
 .cta { display: inline-block; background: #D4AF37; color: #000; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 16px; padding: 16px 40px; border-radius: 6px; transition: all 0.3s; }
 .cta:hover { background: #e0c04a; text-decoration: none; transform: translateY(-2px); }
 
-footer { padding: 48px; text-align: center; font-size: 14px; color: #444; }
-footer a { color: #666; margin: 0 12px; }
+footer { padding: 48px; text-align: center; font-size: 14px; color: #605850; }
+footer a { color: #807870; margin: 0 12px; }
 footer a:hover { color: #D4AF37; }
 
 @media (max-width: 768px) {
@@ -71,6 +71,10 @@ footer a:hover { color: #D4AF37; }
 
 .fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
 .fade-in.visible { opacity: 1; transform: translateY(0); }
+
+/* SIGNUP EMBED */
+.signup-embed { margin-top: 40px; display: flex; justify-content: center; }
+.signup-embed iframe { max-width: 100%; border-radius: 6px; }
 </style>
 </head>
 <body>
@@ -80,7 +84,7 @@ footer a:hover { color: #D4AF37; }
   <a href="index.html" class="logo">Samantha Postman</a>
   <div class="links">
     <a href="about.html">About</a>
-    <a href="https://samanthapostman.substack.com" target="_blank">AHAs</a>
+    <a href="https://ahas.samanthapostman.com" target="_blank">AHAs Journal</a>
   </div>
 </nav>
 
@@ -154,7 +158,9 @@ footer a:hover { color: #D4AF37; }
 <section class="final-cta fade-in">
   <h2>Start with one reframe.<br>See what shifts.</h2>
   <div class="subline">Mental models and reframes, delivered weekly. Free.</div>
-  <a href="https://samanthapostman.substack.com" class="cta" target="_blank" rel="noopener noreferrer">Get the frameworks free &rarr;</a>
+  <div class="signup-embed">
+    <iframe src="https://ahas.samanthapostman.com/embed" width="480" height="320" style="border: 1px solid #EEE; background: white" frameborder="0" scrolling="no"></iframe>
+  </div>
 </section>
 
 <!-- FOOTER -->
@@ -163,7 +169,7 @@ footer a:hover { color: #D4AF37; }
   <p style="margin-top: 12px;">
     <a href="https://x.com/SamanthaPostman" target="_blank">X</a>
     <a href="https://linkedin.com/in/samanthapostman" target="_blank">LinkedIn</a>
-    <a href="https://samanthapostman.substack.com" target="_blank">Substack</a>
+    <a href="https://ahas.samanthapostman.com" target="_blank">Substack</a>
     <a href="about.html">About</a>
   </p>
 </footer>
